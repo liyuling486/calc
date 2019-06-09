@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='show'>
+    <text>{{show}}</text>
+  </view>
+  <view class='con'>
+    <view class='box'>
+      <text>CE</text>
+    </view>
+    <view class='box'>
+      <text>C</text>
+    </view>
+    <view class='box'>
+      <text>X</text>
+    </view>
+    <view class='box'>
+      <text>÷</text>
+    </view>
+
+    <view class='box num' bindtap='clickNum' data-num='7'>
+      <text>7</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='8'>
+      <text>8</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='9'>
+      <text>9</text>
+    </view>
+    <view class='box'>
+      <text>x</text>
+    </view>
+    
+    <view class='box num' bindtap='clickNum' data-num='4'>
+      <text>4</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='5'>
+      <text>5</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='6'>
+      <text>6</text>
+    </view>
+    <view class='box'>
+      <text>-</text>
+    </view>
+
+    <view class='box num' bindtap='clickNum' data-num='1'>
+      <text>1</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='2'>
+      <text>2</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='3'>
+      <text>3</text>
+    </view>
+    <view class='box' bindtap='add'>
+      <text>+</text>
+    </view>
+
+    <view class='box'>
+      <text>+-</text>
+    </view>
+    <view class='box num' bindtap='clickNum' data-num='0'>
+      <text>0</text>
+    </view>
+    <view class='box'>
+      <text>.</text>
+    </view>
+    <view class='box' bindtap='equal'>
+      <text>=</text>
+    </view>
+
+  </view>
+</view>
